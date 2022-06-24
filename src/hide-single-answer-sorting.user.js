@@ -30,17 +30,17 @@
 // ==/UserScript==
 (function() {
   const answerCountSelector = "#answers-header [data-answercount]";
-  
+
   const countEl = document.querySelector(answerCountSelector);
-  
+
   if (!countEl)
     throw new Error(`Element with selector [${answerCountSelector}] not found on the page. Unable to get the number of answers. Possibly a UI update broke the userscript.`);
-  
+
   const numAnswers = Number(countEl.dataset.answercount);
-  
+
   if (numAnswers !== 1)
     return;
-  
+
   //hide sorting dropdown and related elements
   countEl
     .closest(".flex--item")

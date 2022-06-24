@@ -1,0 +1,21 @@
+{
+  "name": "se_userscript-hide-single-answer-sorting",
+  "version": "1.0.0",
+  "description": "Hide \"sorted by\" combobox when only one answer is on the page",
+  "scripts": {
+    "lint": "eslint src --fix --ext .js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PurpleMagick/se_userscript-hide-single-answer-sorting.git"
+  },
+  "author": "VLAZ",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/PurpleMagick/se_userscript-hide-single-answer-sorting/issues"
+  },
+  "homepage": "https://github.com/PurpleMagick/se_userscript-hide-single-answer-sorting#readme",
+  "devDependencies": {
+    "eslint": "^8.18.0"
+  }
+}
